@@ -24,7 +24,7 @@ body {
   font-family: propaganda;
   font-size: 17vw !important;
   letter-spacing: 3px;
-  text-shadow: 20px 3px 32px rgb(255, 0, 0), 
+  text-shadow: 20px 3px 32px rgb(254, 0, 0),
                -10px -1px 20px rgb(102, 13, 13);
   background: transparent;
   filter: blur(1px);
