@@ -1,0 +1,250 @@
+
+
+body {
+  filter: contrast(97%)
+          blur(0.7px);
+}
+
+.devCont {
+  background: url("../images/DM 3.png")
+              no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  opacity: 50%;
+}
+
+.accordion-item {
+  border: none;
+  background: transparent;
+}
+
+.accordion-button {
+  font-family: propaganda;
+  font-size: 17vw !important;
+  letter-spacing: 3px;
+  text-shadow: 20px 3px 32px rgb(255, 0, 0), 
+               -10px -1px 20px rgb(102, 13, 13);
+  background: transparent;
+  filter: blur(1px);
+}
+
+.accordion-body {
+  max-height: 30vh;
+  background: transparent !important;
+}
+
+.vector1 {
+  opacity: 70%;
+}
+
+.vector2 {
+  opacity: 70%;
+  top: 310px;
+}
+
+p, h3 {
+  font-family: noto sans light;
+  font-size: 4vw;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-shadow: 3px 3px 5px rgb(185, 18, 18), 
+               -3px -3px 5px rgb(255, 75, 75);
+  opacity: 120%;
+}
+
+.sumHed, .skilHed, .eduHed {
+  font-family: propaganda;
+  opacity: 50%;
+  font-size: 7vw;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px rgb(255, 0, 0), 
+               -1px -1px 10px rgb(255, 0, 0);
+}
+
+.sumList, .skilList {
+  font-family: noto sans light;
+  list-style-type: disc;
+  font-size: 4vw;
+  letter-spacing: 2px;  
+  text-shadow: 3px 3px 5px rgb(185, 18, 18), 
+               -3px -3px 5px rgb(255, 75, 75);
+}
+
+.foot {
+  font-size: 3.5vw !important;
+  font-family: noto sans light;
+  opacity: 70%;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px 6px,
+               -3px -2px 6px red;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) {
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.fs-5 {
+  font-size: 2rem !important;
+}
+
+body {
+  filter: contrast(97%)
+          blur(0.7px);
+}
+
+.devCont {
+  background: url("../images/DM 3.png")
+              no-repeat;
+  background-position: center;
+}
+
+.summary, .skills, .folio {
+  left: -500px !important;
+}
+
+.sumBody a{
+  overflow: scroll;
+  text-decoration: none;
+}
+
+.sumHed, .skilHed {
+  font-family: propaganda;
+  color: #ff3a3a;
+  letter-spacing: 3.5px !important;
+  opacity: 100%;
+  font-size: 4vw;
+  font-weight: bold;
+  text-shadow: 250px 100px 50px rgb(156, 4, 4),
+               80px -0px 10px rgb(255, 0, 0);
+  filter: blur(2px);
+}
+
+.vector1 {
+  opacity: 60%;
+  width: 20% !important;
+  top: 510px !important;
+  left: 300px !important;
+}
+
+.vector2 {
+  opacity: 50%;
+  top: 280px;
+  left: 100px;
+}
+
+p, h3 {
+  font-family: noto sans light;
+  font-size: 1vw;
+  letter-spacing: 8px;
+  text-align: justify;
+  text-shadow: 3px 5px 5px rgb(255, 0, 0), 
+               -3px -5px 5px rgb(255, 0, 0);
+  opacity: 100%;
+  color: #ff1f36;
+}
+
+.sumList, .skilList {
+  font-family: noto sans light;
+  list-style-type: disc;
+  font-size: 1.5vw;
+  letter-spacing: 10px;
+  text-align: justify;
+  text-shadow: 3px 3px 5px rgb(185, 18, 18), 
+               -3px -3px 5px rgb(255, 75, 75);
+  opacity: 80%;
+}
+
+.folBtn, .skilBtn, .sumBtn {
+  background: transparent !important;
+  border: none !important;
+  font-family: propaganda;
+  font-size: 5.5vw !important;
+  letter-spacing: 10px;
+  filter: blur(2.5px);
+  text-shadow: 40px 2px 50px rgb(255, 0, 0), 
+               -7px -3px 20px rgb(143, 0, 0); 
+}
+
+.sumDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -910px 300px 1000px #552427,
+              -100px -50px 500px #ff1f1f;
+  overflow: scroll !important;            
+  width: 0%;
+  height: 500%;
+  transform: translate3d(1272px, 1px, -135px) !important;
+}
+
+.sumBody::before {
+  filter: blur(12px);
+}
+
+.folDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -610px 500px 1000px #d41818,
+              -100px -50px 500px #552427;
+  overflow: hidden !important;            
+  width: 0%;
+  height: 500%;
+  transform: translate3d(1272px, -362px, -135px) !important;
+}
+
+.skilDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -910px 300px 1000px #d41818,
+              -100px -50px 500px #ff1f1f;
+  overflow: hidden !important;            
+  width: 0%;
+  height: 500%;
+  transform: translate3d(1272px, -472px, -135px) !important;
+}
+
+@keyframes ddMenu {
+  from {background-color: transparent;
+        opacity: 0%;
+        width: 0%;
+        left: -100px;}
+  to {background-color: #552427;
+      width: 58.5%;
+      left: 0px;
+      opacity: 50%;}
+}
+
+.foot {
+  font-size: 0.85vw !important;
+  font-family: noto sans light;
+  opacity: 70%;
+  letter-spacing: 2.5px;
+  text-shadow: 4px 3px 7px red,
+               -4px -3px 7px red;
+}
+ }
