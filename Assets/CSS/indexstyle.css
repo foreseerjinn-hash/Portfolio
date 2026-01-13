@@ -21,7 +21,7 @@ body {
 }
 
 .accordion-button {
-  font-family: propaganda;
+  font-family: propaganda, BBH Bartle, sans-serif;
   font-size: 17vw !important;
   letter-spacing: 3px;
   text-shadow: 20px 3px 32px rgb(254, 0, 0),
@@ -55,7 +55,7 @@ p, h3 {
 }
 
 .sumHed, .skilHed, .eduHed {
-  font-family: propaganda;
+  font-family: propaganda, BBH Bartle, sans-serif;
   opacity: 50%;
   font-size: 7vw;
   font-weight: bold;
@@ -119,62 +119,10 @@ body {
   left: -500px !important;
 }
 
-.sumBody a{
-  overflow: scroll;
-  text-decoration: none;
-}
-
-.sumHed, .skilHed {
-  font-family: propaganda;
-  color: #ff3a3a;
-  letter-spacing: 3.5px !important;
-  opacity: 100%;
-  font-size: 4vw;
-  font-weight: bold;
-  text-shadow: 250px 100px 50px rgb(156, 4, 4),
-               80px -0px 10px rgb(255, 0, 0);
-  filter: blur(2px);
-}
-
-.vector1 {
-  opacity: 60%;
-  width: 20% !important;
-  top: 510px !important;
-  left: 300px !important;
-}
-
-.vector2 {
-  opacity: 50%;
-  top: 280px;
-  left: 100px;
-}
-
-p, h3 {
-  font-family: noto sans light;
-  font-size: 1vw;
-  letter-spacing: 8px;
-  text-align: justify;
-  text-shadow: 3px 5px 5px rgb(255, 0, 0), 
-               -3px -5px 5px rgb(255, 0, 0);
-  opacity: 100%;
-  color: #ff1f36;
-}
-
-.sumList, .skilList {
-  font-family: noto sans light;
-  list-style-type: disc;
-  font-size: 1.5vw;
-  letter-spacing: 10px;
-  text-align: justify;
-  text-shadow: 3px 3px 5px rgb(185, 18, 18), 
-               -3px -3px 5px rgb(255, 75, 75);
-  opacity: 80%;
-}
-
 .folBtn, .skilBtn, .sumBtn {
   background: transparent !important;
   border: none !important;
-  font-family: propaganda;
+  font-family: propaganda, BBH Bartle, sans-serif;
   font-size: 5.5vw !important;
   letter-spacing: 10px;
   filter: blur(2.5px);
@@ -193,7 +141,7 @@ p, h3 {
   overflow: scroll !important;            
   width: 0%;
   height: 500%;
-  transform: translate3d(1272px, 1px, -135px) !important;
+  transform: translate3d(1272px, -50px, -135px) !important;
 }
 
 .sumBody::before {
@@ -211,7 +159,7 @@ p, h3 {
   overflow: hidden !important;            
   width: 0%;
   height: 500%;
-  transform: translate3d(1272px, -362px, -135px) !important;
+  transform: translate3d(1272px, -287px, -135px) !important;
 }
 
 .skilDropDown {
@@ -225,7 +173,7 @@ p, h3 {
   overflow: hidden !important;            
   width: 0%;
   height: 500%;
-  transform: translate3d(1272px, -472px, -135px) !important;
+  transform: translate3d(1272px, -522px, -135px) !important;
 }
 
 @keyframes ddMenu {
@@ -234,9 +182,76 @@ p, h3 {
         width: 0%;
         left: -100px;}
   to {background-color: #552427;
-      width: 58.5%;
+      width: 56.5%;
       left: 0px;
       opacity: 50%;}
+}
+
+.sumBody a{
+  overflow: scroll;
+  text-decoration: none;
+}
+
+.sumHed {
+  font-family: propaganda, BBH Bartle, sans-serif;
+  color: #ff3a3a;
+  letter-spacing: 3.5px !important;
+  opacity: 100%;
+  font-size: 4vw;
+  font-weight: bold;
+  text-shadow: 250px 100px 50px rgb(156, 4, 4),
+               80px -0px 10px rgb(255, 0, 0);
+  filter: blur(2px);
+}
+
+.skilHed {
+  font-family: propaganda, BBH Bartle, sans-serif;
+  color: #ff3a3a;
+  letter-spacing: 2.5px !important;
+  line-height: 150px;
+  opacity: 100%;
+  font-size: 5vw;
+  font-weight: bold;
+  text-shadow: 250px 100px 50px rgb(156, 4, 4),
+               80px -0px 10px rgb(255, 0, 0);
+  filter: blur(2px);
+}
+
+.vector1 {
+  opacity: 60%;
+  width: 20% !important;
+  top: 510px !important;
+  left: 300px !important;
+}
+
+.vector2 {
+  opacity: 50%;
+  width: 20%;
+  top: 200px;
+  left: 400px;
+}
+
+.skilList {
+  list-style-type: disc;
+  font-family: noto sans light;
+  font-size: 2.5vw;
+  letter-spacing: 8px;
+  text-align: justify;
+  text-shadow: 3px 5px 5px rgb(255, 0, 0), 
+               -3px -5px 5px rgb(255, 0, 0);
+  opacity: 100%;
+  color: #ff1f36;
+}
+
+p, h3 {
+  font-family: noto sans light;
+  font-size: 1vw;
+  letter-spacing: 8px;
+  text-align: justify;
+  text-shadow: 3px 5px 5px rgb(255, 0, 0), 
+               -3px -5px 5px rgb(255, 0, 0);
+  opacity: 100%;
+  color: #ff1f36;
 }
 
 .foot {

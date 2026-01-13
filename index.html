@@ -25,6 +25,16 @@
         crossorigin="anonymous">               
   <link rel="stylesheet" 
         href="Assets/CSS/indexstyle.css">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=BBH+Bartle&effect=fire|
+                                                                        neon|
+                                                                        outline|
+                                                                        emboss|
+                                                                        shadow-multiple|
+                                                                        anaglyph|
+                                                                        3d|
+                                                                        float
+                                               &display=swap">
   <link rel="stylesheet" 
         href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
@@ -294,7 +304,8 @@
                justify-content-center
                w-100
                h-100
-               position-absolute">
+               position-absolute
+               m-xxl-5">
 
     <div class="row
                 h-25
@@ -374,32 +385,40 @@
         </div>
        </ul>
       </div>
-     </div>
+    </div>
 
     <div class="row
                 h-25
                 w-100">
      <div class="folio
                  position-absolute
-                d-none
-                d-xxl-flex
-                h-25
-                btn-group 
-                dropend">
-     <button type="button" 
-             class="folBtn
-                    text-danger
-                    fw-bold
-                    btn
-                    btn-secondary" 
-             data-bs-toggle="dropdown" 
-             aria-expanded="false">
-      Folio
-     </button>
-     <ul class="folDropDown
-                dropdown-menu">
+                 d-none
+                 d-xxl-flex
+                 h-25
+                 btn-group 
+                 dropend">
+      <button type="button" 
+              class="folBtn
+                     text-danger
+                     fw-bold
+                     btn
+                     btn-secondary" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false">
+       Folio
+      </button>
+      <ul class="folDropDown
+                 dropdown-menu">
+       <div class="container-fluid
+                   border 
+                   border-light
+                   d-xxl-flex
+                   mt-xxl-5
+                   h-50
+                   w-75">
       <!-- Dropdown menu links -->
-     </ul>
+       </div>
+      </ul>
      </div>
     </div>
 
@@ -413,20 +432,85 @@
                  h-25
                  btn-group 
                  dropend">
-     <button type="button" 
-             class="skilBtn
-                    text-danger
-                    fw-bold
-                    btn
-                    btn-secondary" 
-             data-bs-toggle="dropdown" 
-             aria-expanded="false">
-      Skills
-     </button>
-     <ul class="skilDropDown
-                dropdown-menu">
-      <!-- Dropdown menu links -->
-     </ul>
+      <button type="button" 
+              class="skilBtn
+                     text-danger
+                     fw-bold
+                     btn
+                     btn-secondary" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false">
+       Skills
+      </button>
+      <ul class="skilDropDown
+                 dropdown-menu">
+       <img class="vector2
+                   position-absolute"
+            src="Assets/Images/DM 4.png"
+            alt="landscape of a space creature">
+       <div class="skilBod
+                   position-relative
+                   px-xxl-5
+                   text-wrap
+                   overflow-scroll
+                   overflow-x-hidden">
+        <h2 class="skilHed
+                   mt-xxl-4
+                   pb-xxl-4
+                   px-xxl-1
+                   fw-bold
+                   display-5
+                   ustify-content">
+         What I'm learning:
+        </h2>
+        <div class="row
+                    px-xxl-5">
+         <div class="col-sm">
+          <ul class="skilList
+                     fw-bold">
+           <li>
+            HTML
+           </li>
+           <li>
+            CSS
+           </li>
+           <li>
+            JavaScript
+           </li>
+           <li>
+            CMS Platforms
+           </li>
+           <li>
+            Bootstrap
+           </li>
+           <li>
+            Git
+           </li>
+          </ul>
+         </div>
+         <div class="col-sm">
+          <ul class="skilList
+                     fw-bold">
+           <li>
+            Responsive Design
+           </li>
+           <li>
+            Microblogs
+           </li>
+           <li>
+            Debugging
+           </li>
+           <li>
+            SQL
+           </li>
+           <li>
+            Python
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </ul>
      </div>
     </div>
 
