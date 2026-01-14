@@ -104,6 +104,18 @@ p, h3 {
   font-size: 2rem !important;
 }
 
+.font-effect-3d {
+  color: #ff3939 !important;
+  text-shadow: 0px 1px 0px #84010e, 
+               0px 2px 0px #c2192a, 
+               0px 3px 0px #a01422, 
+               0px 4px 0px #8e121e, 
+               0px 5px 0px #720f19, 
+               0px 6px 0px #5e0c15, 
+               0px 7px 0px #46090f, 
+               0px 8px 7px #0e0203 !important;
+}
+
 body {
   filter: contrast(97%)
           blur(0.7px);
@@ -212,25 +224,40 @@ body {
   opacity: 100%;
   font-size: 7vw;
   font-weight: bold;
-  text-shadow: 10px 40px 50px rgb(156, 4, 4),
-               80px 0px 15px rgb(255, 0, 0);
   filter: blur(2px);
+  left: 100px !important;
 }
 
 .folSubHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
-  color: #b00000;
-  letter-spacing: 2.5px !important;
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  letter-spacing: 10.5px !important;
   line-height: 150px;
-  font-weight: bold;
-  font-size: 4vw;
-  text-shadow: 10px 10px 50px rgb(61, 0, 0),
-               20px 0px 15px rgb(172, 2, 2);
-  top: -40px !important;
+  opacity: 80%;
+}
+
+.dTop {
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  rotate: 90deg;
+  top: 100px !important;
+  font-size: 6vw !important;
+  left: -410px;
+  filter: blur(1.5px);
+}
+
+.phone {
+  top: 200px !important;
+  font-size: 6vw !important;
+  left: 270px;
+  filter: blur(1.5px);
 }
 
 .landscapeVid {
   bottom: 150px !important;
+}
+
+.landscapeVid2 {
+  bottom: 60px !important;
+  right: -180px !important;
 }
 
 .skilHed {
@@ -261,15 +288,12 @@ body {
 }
 
 .skilList {
-  list-style-type: disc;
-  font-family: noto sans light;
-  font-size: 2.5vw;
+  list-style-type: none;
+  font-family: cardinal, sans serif;
+  font-size: 3vw;
   letter-spacing: 8px;
   text-align: justify;
-  text-shadow: 3px 5px 5px rgb(255, 0, 0), 
-               -3px -5px 5px rgb(255, 0, 0);
   opacity: 100%;
-  color: #ff1f36;
 }
 
 p, h3 {
