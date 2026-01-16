@@ -76,7 +76,7 @@ p, h3 {
   opacity: 120%;
 }
 
-.sumHed, .skilHed, .eduHed {
+.sumHed, .skilHed, .folHed {
   font-family: propaganda, sans-serif;
   opacity: 50%;
   font-size: 8vw;
@@ -84,6 +84,42 @@ p, h3 {
   letter-spacing: 2px;
   text-shadow: 1px 1px 10px rgb(255, 0, 0), 
                -1px -1px 10px rgb(255, 0, 0);
+}
+
+.dTop {
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  top: 10px !important;
+  font-size: 10vw !important;
+  left: -10px;
+  filter: blur(0.8px);
+}
+
+.dTopVidDiv {
+  width: 270px !important; 
+  height: 135px !important;
+  border: 5px solid white;
+}
+
+.landscapeVid {
+  top:-33px;
+  left:-5px;
+}
+
+.phone {
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  font-size: 10vw !important;
+  filter: blur(0.8px);
+}
+
+.phoneVidDiv {
+  width: 160px !important; 
+  height: 340px !important;
+  border: 5px solid white;
+}
+
+.landscapeVid2 {
+  top: -1px;
+  left: -31px;
 }
 
 .sumList, .skilList {
