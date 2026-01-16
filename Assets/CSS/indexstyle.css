@@ -1,4 +1,14 @@
-
+.font-effect-3d {
+  color: #ff3939 !important;
+  text-shadow: 0px 1px 0px #84010e, 
+               0px 2px 0px #c2192a, 
+               0px 3px 0px #a01422, 
+               0px 4px 0px #8e121e, 
+               0px 5px 0px #720f19, 
+               0px 6px 0px #5e0c15, 
+               0px 7px 0px #46090f, 
+               0px 8px 7px #0e0203 !important;
+}
 
 body {
   filter: contrast(97%)
@@ -20,10 +30,21 @@ body {
   background: transparent;
 }
 
+@font-face {
+  font-family: propaganda;
+  src: url(../../Fonts/Propaganda.TTF);
+  font-family: cardinal;
+  src: url(../../Fonts/Cardinal.ttf);
+  font-family: BBH Bartle;
+  src: url(../../Fonts//BBH_Bartle/BBHBartle-Regular.ttf);
+  font-family: Cinzel;
+  src: url(../../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
 .accordion-button {
-  font-family: propaganda, BBH Bartle, sans-serif;
-  font-size: 17vw !important;
-  letter-spacing: 3px;
+  font-family: propaganda, Cinzel black, sans serif;
+  font-size: 15vw !important;
+  letter-spacing: 1px;
   text-shadow: 20px 3px 32px rgb(254, 0, 0),
                -10px -1px 20px rgb(102, 13, 13);
   background: transparent;
@@ -40,8 +61,9 @@ body {
 }
 
 .vector2 {
-  opacity: 70%;
-  top: 310px;
+  opacity: 60%;
+  top: 180px;
+  left: 140px;
 }
 
 p, h3 {
@@ -55,19 +77,20 @@ p, h3 {
 }
 
 .sumHed, .skilHed, .eduHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+  font-family: propaganda, sans-serif;
   opacity: 50%;
-  font-size: 7vw;
+  font-size: 8vw;
   font-weight: bold;
+  letter-spacing: 2px;
   text-shadow: 1px 1px 10px rgb(255, 0, 0), 
                -1px -1px 10px rgb(255, 0, 0);
 }
 
 .sumList, .skilList {
-  font-family: noto sans light;
-  list-style-type: disc;
-  font-size: 4vw;
-  letter-spacing: 2px;  
+  font-family: cardinal;
+  list-style-type: none;
+  font-size: 5.5vw;
+  letter-spacing: 3px;  
   text-shadow: 3px 3px 5px rgb(185, 18, 18), 
                -3px -3px 5px rgb(255, 75, 75);
 }
