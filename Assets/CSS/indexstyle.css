@@ -303,20 +303,30 @@ body {
   filter: blur(1.5px);
 }
 
-.phone {
-  top: 200px !important;
-  font-size: 6vw !important;
-  left: 270px;
-  filter: blur(1.5px);
+.dTopBorderDiv {
+  height: 640px;
+  width: 720px;
+  border: 10px, solid, white;
 }
 
 .landscapeVid {
-  bottom: 150px !important;
+  top: -170px !important;
+}
+
+.phone {
+  top: 170px !important;
+  font-size: 6vw !important;
+  left: 220px;
+  filter: blur(1.5px);
+}
+
+.phoneBorderDiv {
+
 }
 
 .landscapeVid2 {
-  bottom: 60px !important;
-  right: -180px !important;
+  top: 160px !important;
+  left: 480px !important;
 }
 
 .skilHed {
