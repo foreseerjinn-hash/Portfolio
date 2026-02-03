@@ -33,6 +33,8 @@ body {
 @font-face {
   font-family: propaganda;
   src: url(../../Fonts/Propaganda.TTF);
+  src: url(../../Fonts/Propaganda.woff);
+  src: url(../../Fonts/Propaganda.woff2);
   font-family: cardinal;
   src: url(../../Fonts/Cardinal.ttf);
   font-family: BBH Bartle;
@@ -149,7 +151,264 @@ p, h3 {
 
 @media (min-width: 1200px) { }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px) { 
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.fs-5 {
+  font-size: 1.5rem !important;
+}
+
+.font-effect-3d {
+  color: #ff3939 !important;
+  text-shadow: 0px 1px 0px #84010e, 
+               0px 2px 0px #c2192a, 
+               0px 3px 0px #a01422, 
+               0px 4px 0px #8e121e, 
+               0px 5px 0px #720f19, 
+               0px 6px 0px #5e0c15, 
+               0px 7px 0px #46090f, 
+               0px 8px 7px #0e0203 !important;
+}
+
+body {
+  filter: contrast(90%)
+          blur(0.7px);
+}
+
+.devCont {
+  background: url("../Images/DM 3.png")
+              no-repeat;
+  background-position: center;
+}
+
+.summary, .skills, .folio {
+  left: -450px !important;
+}
+
+.folBtn, .skilBtn, .sumBtn {
+  background: transparent !important;
+  border: none !important;
+  font-family: propaganda, BBH Bartle, sans-serif;
+  font-size: 7.5vw !important;
+  letter-spacing: 1px;
+  filter: blur(2px);
+  text-shadow: 10px 2px 15px rgb(255, 0, 0), 
+               -7px -3px 50px rgb(143, 0, 0); 
+}
+
+.sumBtn:hover {
+  color: #be1518 !important;
+}
+
+.skilBtn:hover {
+  color: #be1518 !important;
+}
+
+.folBtn:hover {
+  color: #be1518 !important;
+}
+
+.sumDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -910px 300px 1000px #552427,
+              -100px -50px 500px #ff1f1f;
+  overflow: scroll !important;            
+  width: 0%;
+  height: 400%;
+  transform: translate3d(1145px, -50px, -135px) !important;
+}
+
+.sumBody::before {
+  filter: blur(10px);
+}
+
+.folDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -610px 500px 1000px #d41818,
+              -100px -50px 500px #552427;
+  overflow: hidden !important;            
+  width: 0%;
+  height: 500%;
+  transform: translate3d(1145px, -287px, -135px) !important;
+}
+
+.skilDropDown {
+  border-radius: 0px;
+  border-color: #ff1f36;
+  animation-name: ddMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: -910px 300px 1000px #d41818,
+              -100px -50px 500px #ff1f1f;
+  overflow: hidden !important;            
+  width: 0%;
+  height: 500%;
+  transform: translate3d(1145px, -522px, -135px) !important;
+}
+
+@keyframes ddMenu {
+  from {background-color: transparent;
+        opacity: 0%;
+        width: 0%;
+        left: -100px;}
+  to {background-color: #552427;
+      width: 50.5%;
+      left: 0px;
+      opacity: 50%;}
+}
+
+.sumBody a{
+  overflow: scroll;
+  text-decoration: none;
+}
+
+.sumHed {
+  font-family: propaganda, BBH Bartle, sans-serif;
+  color: #b66f6f;
+  letter-spacing: 3.5px !important;
+  opacity: 100%;
+  font-size: 4vw;
+  font-weight: bold;
+  text-shadow: 250px 100px 50px rgb(152, 36, 36),
+               50px -10px 15px rgb(255, 50, 50);
+  filter: blur(2px);
+}
+
+.folHed {
+  font-family: propaganda, BBH Bartle, sans-serif;
+  color: #ff3a3a;
+  letter-spacing: 2px !important;
+  line-height: 110px;
+  opacity: 100%;
+  font-size: 6.5vw;
+  font-weight: bold;
+  filter: blur(1.5px);
+  left: 20px !important;
+  margin: 40px;
+}
+
+.folSubHed {
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  letter-spacing: 10.5px !important;
+  line-height: 150px;
+  opacity: 80%;
+}
+
+.dTop {
+  font-family: cardinal, BBH Hegarty, sans-serif;
+  rotate: 90deg;
+  top: 130px !important;
+  font-size: 6vw !important;
+  left: -320px;
+  filter: blur(1px);
+}
+
+.landscapeVid {
+  top: -100px !important;
+  left: -50px;
+  width: 550px;
+  filter: blur(2px);
+}
+
+.landscapeVid:hover {
+  filter: none;
+}
+
+.phone {
+  top: 300px !important;
+  font-size: 6vw !important;
+  left: 80px;
+  filter: blur(1px);
+}
+
+.portraitVid {
+  top: 120px !important;
+  left: 470px !important;
+  width: 250px;
+  filter: blur(2px);
+}
+
+.portraitVid:hover {
+  filter: none;
+}
+
+.phoneBorderDiv {
+
+}
+
+.skilHed {
+  font-family: propaganda, BBH Bartle, sans-serif;
+  color: #ff3a3a;
+  letter-spacing: 2.5px !important;
+  line-height: 150px;
+  opacity: 100%;
+  font-size: 5vw;
+  font-weight: bold;
+  text-shadow: 110px 40px 50px rgb(156, 4, 4),
+               80px 0px 10px rgb(255, 0, 0);
+  filter: blur(2px);
+}
+
+.vector1 {
+  opacity: 60%;
+  width: 20% !important;
+  top: 510px !important;
+  left: 300px !important;
+}
+
+.vector2 {
+  opacity: 50%;
+  width: 20%;
+  top: 200px;
+  left: 400px;
+}
+
+.skilList {
+  list-style-type: none;
+  font-family: cardinal, sans serif;
+  font-size: 3vw;
+  letter-spacing: 8px;
+  text-align: justify;
+  opacity: 100%;
+}
+
+p, h3 {
+  font-family: noto sans light;
+  font-size: 1.2vw;
+  letter-spacing: 5px;
+  text-shadow: 1.5px 2px 3px rgb(255, 203, 203), 
+               -1.5px -2px 5px rgb(254, 129, 129);
+  opacity: 100%;
+  color: #ec99a1;
+}
+
+.foot {
+  font-size: 1vw !important;
+  font-family: noto sans light;
+  opacity: 80%;
+  letter-spacing: 2.5px;
+  text-shadow: 4px 3px 7px rgb(255, 0, 0),
+               -4px -3px 7px red;
+}
+
+}
+
+@media (min-width: 1600px) {
 
 .vh-100 {
   height: 100vh !important;
@@ -199,6 +458,18 @@ body {
   filter: blur(2.5px);
   text-shadow: 40px 2px 50px rgb(255, 0, 0), 
                -7px -3px 20px rgb(143, 0, 0); 
+}
+
+.sumBtn:hover {
+  color: #be1518 !important;
+}
+
+.skilBtn:hover {
+  color: #be1518 !important;
+}
+
+.folBtn:hover {
+  color: #be1518 !important;
 }
 
 .sumDropDown {
@@ -301,12 +572,6 @@ body {
   font-size: 6vw !important;
   left: -410px;
   filter: blur(1.5px);
-}
-
-.dTopBorderDiv {
-  height: 640px;
-  width: 720px;
-  border: 11px, solid, white;
 }
 
 .landscapeVid {
