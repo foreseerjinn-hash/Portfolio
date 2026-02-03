@@ -113,7 +113,7 @@ p, h3 {
 }
 
 .dTopVidDiv {
-  width: 270px !important; 
+  width: 266px !important; 
   height: 135px !important;
   border: 5px solid white;
 }
@@ -219,7 +219,7 @@ body {
   font-family: propaganda, BBH Bartle, sans-serif;
   font-size: 7.5vw !important;
   letter-spacing: 1px;
-  filter: blur(2px);
+  filter: blur(1.6px);
   text-shadow: 10px 2px 15px rgb(255, 0, 0), 
                -7px -3px 50px rgb(143, 0, 0); 
 }
@@ -300,14 +300,14 @@ body {
 
 .sumHed {
   font-family: propaganda, BBH Bartle, sans-serif;
-  color: #b66f6f;
+  color: #e58d8d !important;
   letter-spacing: 3.5px !important;
   opacity: 100%;
   font-size: 4vw;
   font-weight: bold;
   text-shadow: 250px 100px 50px rgb(152, 36, 36),
-               50px -10px 15px rgb(255, 50, 50);
-  filter: blur(2px);
+               50px -10px 15px rgb(255, 50, 50) !important;
+  filter: blur(1.7px) !important;
 }
 
 p, h3 {
@@ -315,9 +315,9 @@ p, h3 {
   font-size: 1.2vw;
   letter-spacing: 5px;
   text-shadow: 1.5px 2px 3px rgb(255, 203, 203), 
-               -1.5px -2px 5px rgb(254, 129, 129);
+               -1.5px -2px 5px rgb(254, 129, 129) !important;
   opacity: 100%;
-  color: #ec99a1;
+  color: #ff99a3 !important;
 }
 
 .folHed {
@@ -337,7 +337,7 @@ p, h3 {
   font-family: cardinal, BBH Hegarty, sans-serif;
   letter-spacing: 10.5px !important;
   line-height: 150px;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .dTop {
@@ -361,7 +361,7 @@ p, h3 {
 }
 
 .phone {
-  top: 300px !important;
+  top: 250px !important;
   font-size: 6vw !important;
   left: 80px;
   filter: blur(1px);
