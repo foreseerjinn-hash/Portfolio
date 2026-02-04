@@ -43,15 +43,20 @@ body {
 }
 
 @font-face {
-  font-family: propaganda;
+  font-family: Propaganda;
   src: url(../Fonts/Propaganda.TTF) 
        format('truetype'),
+       url(../Fonts/Propaganda.otf)
+       format('opentype'),
        url(../Fonts/Propaganda.woff) 
        format('woff'),
        url(../Fonts/Propaganda.woff2) 
        format('woff2');
-  font-family: cardinal;
-  src: url(../Fonts/Cardinal.ttf);
+  font-family: Cardinal;
+  src: url(../Fonts/Cardinal.ttf)
+       format('truetype'),
+       url(../Fonts/Cardinal.otf)
+       format('opentype');
   font-family: BBH Bartle;
   src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf);
   font-family: Cinzel;
@@ -62,7 +67,7 @@ body {
 }
 
 .accordion-button {
-  font-family: propaganda, Gotham, black, Garamond, serif;
+  font-family: Propaganda, Gotham, black, Garamond, serif;
   font-size: 17vw !important;
   letter-spacing: 1px !important;
   text-shadow: 20px 3px 32px rgb(254, 0, 0),
