@@ -44,15 +44,15 @@ body {
 
 @font-face {
   font-family: propaganda;
-  src: url(../../Fonts/Propaganda.TTF) format('truetype'),
-       url(../../Fonts/Propaganda.woff) format('woff'),
-       url(../../Fonts/Propaganda.woff2) format('woff2');
+  src: url(../Fonts/Propaganda.TTF) format('truetype'),
+       url(../Fonts/Propaganda.woff) format('woff'),
+       url(../Fonts/Propaganda.woff2) format('woff2');
   font-family: cardinal;
-  src: url(../../Fonts/Cardinal.ttf);
+  src: url(../Fonts/Cardinal.ttf);
   font-family: BBH Bartle;
-  src: url(../../Fonts/BBH_Bartle/BBHBartle-Regular.ttf);
+  src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf);
   font-family: Cinzel;
-  src: url(../../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+  src: url(../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
 }
 
 .accordion-button {
