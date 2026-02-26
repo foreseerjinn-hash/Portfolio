@@ -21,7 +21,9 @@ body {
 }
 
 .devCont {
-    background: url("../Images/DM 3.png") no-repeat center;
+  background: url("../Images/DM 3.png") 
+                  no-repeat 
+                  center;
 }
 
 .overlay {
@@ -60,7 +62,8 @@ body {
 }
 
 .accordion-button {
-  font-family: Garamond, serif;
+  font-family: Garamond, 
+               serif;
   font-size: 20vw !important;
   letter-spacing: 3px !important;
   text-shadow: 20px 3px 32px rgb(254, 0, 0),
@@ -115,7 +118,10 @@ p, h3 {
 }
 
 .dTop {
-  font-family: Gotham thin, BBH Hegarty, Georgia, serif;
+  font-family: Gotham thin, 
+               BBH Hegarty, 
+               Georgia, 
+               serif;
   top: 10px !important;
   font-size: 10vw !important;
   letter-spacing: 4px;
@@ -136,7 +142,10 @@ p, h3 {
 }
 
 .phone {
-  font-family: Gotham thin, BBH Hegarty, Georgia, serif;
+  font-family: Gotham thin, 
+               BBH Hegarty, 
+               Georgia, 
+               serif;
   letter-spacing: 4px;
   font-size: 10vw !important;
   filter: blur(0.8px);  
@@ -155,7 +164,9 @@ p, h3 {
 }
 
 .skilList {
-  font-family: noto sans, Verdana, sans-serif;
+  font-family: noto sans, 
+               Verdana, 
+               sans-serif;
   list-style-type: none;
   font-size: 5.5vw;
   letter-spacing: 4px;
@@ -165,12 +176,16 @@ p, h3 {
 
 .skilHed {
   letter-spacing: 5px;
-  font-family: gotham light, Georgia, serif;
+  font-family: gotham light, 
+               Georgia, 
+               serif;
 }
 
 .foot {
   font-size: 3.5vw !important;
-  font-family: noto sans light, Verdana, sans-serif;
+  font-family: noto sans light, 
+               Verdana, 
+               sans-serif;
   opacity: 70%;
   letter-spacing: 1px;
   text-shadow: 3px 2px 6px,
@@ -218,9 +233,9 @@ body {
 }
 
 .devCont {
-    background: url("../Images/DM 3.png")
-                    no-repeat
-                    center;
+  background: url("../Images/DM 3.png")
+                   no-repeat
+                   center;
 }
 
 .summary, .skills, .folio {
@@ -230,7 +245,8 @@ body {
 .folBtn, .skilBtn, .sumBtn {
   background: transparent !important;
   border: none !important;
-    font-family: Propaganda, serif !important;
+  font-family: Propaganda, 
+               serif !important;
   font-size: 7.5vw !important;
   letter-spacing: 1px;
   filter: blur(1.6px);
@@ -313,7 +329,8 @@ body {
 }
 
 .sumHed {
-    font-family: Propaganda, serif;
+  font-family: Propaganda, 
+               serif;
   color: #e58d8d !important;
   letter-spacing: 3.5px !important;
   opacity: 100%;
@@ -325,7 +342,8 @@ body {
 }
 
 p, h3 {
-    font-family: noto sans light, sans-serif;
+  font-family: noto sans light, 
+               sans-serif;
   font-size: 1.2vw;
   letter-spacing: 5px;
   text-shadow: 1.5px 2px 3px rgb(255, 203, 203), 
@@ -335,7 +353,8 @@ p, h3 {
 }
 
 .folHed {
-    font-family: propaganda, sans-serif;
+  font-family: propaganda, 
+               sans-serif;
   color: #ff3a3a;
   letter-spacing: 2px !important;
   line-height: 110px;
@@ -348,7 +367,9 @@ p, h3 {
 }
 
 .dTop {
-  font-family: cardinal, BBH Hegarty, sans-serif;
+  font-family: cardinal, 
+               BBH Hegarty, 
+               sans-serif;
   rotate: 90deg;
   top: 100px !important;
   font-size: 6vw !important;
@@ -368,7 +389,9 @@ p, h3 {
 }
 
 .phone {
-  font-family: cardinal, BBH Hegarty, sans-serif;
+  font-family: cardinal, 
+               BBH Hegarty, 
+               sans-serif;
   top: 250px !important;
   font-size: 6vw !important;
   left: 80px;
@@ -391,7 +414,8 @@ p, h3 {
 }
 
 .skilHed {
-    font-family: propaganda, serif;
+  font-family: propaganda, 
+               serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -406,7 +430,8 @@ p, h3 {
 }
 
 .skilHed2 {
-    font-family: propaganda, serif;
+  font-family: propaganda, 
+               serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -436,18 +461,19 @@ p, h3 {
 
 .skilList {
   list-style-type: none;
-  font-family: cardinal, sans serif;
+  font-family: cardinal, 
+               sans serif;
   font-size: 3vw;
   letter-spacing: 8px;
   text-align: justify;
   opacity: 100%;
-  overflow: scroll !important;
   padding: 1px !important;
 }
 
 .foot {
   font-size: 1vw !important;
-    font-family: noto sans light, serif;
+  font-family: noto sans light, 
+               serif;
   opacity: 80%;
   letter-spacing: 2.5px;
   text-shadow: 4px 3px 7px rgb(255, 0, 0),
@@ -581,7 +607,8 @@ body {
 }
 
 .sumHed {
-    font-family: propaganda, serif;
+  font-family: propaganda, 
+               serif;
   color: #ff3a3a;
   letter-spacing: 3.5px !important;
   opacity: 100%;
@@ -593,7 +620,8 @@ body {
 }
 
 .folHed {
-    font-family: propaganda, serif;
+  font-family: propaganda, 
+               serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -605,14 +633,18 @@ body {
 }
 
 .folSubHed {
-  font-family: cardinal, BBH Hegarty, sans-serif;
+  font-family: cardinal, 
+               BBH Hegarty, 
+               sans-serif;
   letter-spacing: 10.5px !important;
   line-height: 150px;
   opacity: 80%;
 }
 
 .dTop {
-  font-family: cardinal, BBH Hegarty, sans-serif;
+  font-family: cardinal, 
+               BBH Hegarty, 
+               sans-serif;
   rotate: 90deg;
   top: 100px !important;
   font-size: 6vw !important;
@@ -641,7 +673,8 @@ body {
 }
 
 .skilHed {
-    font-family: propaganda, serif;
+  font-family: propaganda, 
+               serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -669,7 +702,8 @@ body {
 
 .skilList {
   list-style-type: none;
-  font-family: cardinal, sans serif;
+  font-family: cardinal, 
+               sans serif;
   font-size: 3vw;
   letter-spacing: 8px;
   text-align: justify;
@@ -677,7 +711,8 @@ body {
 }
 
 p, h3 {
-    font-family: noto sans light, serif;
+  font-family: noto sans light, 
+               serif;
   font-size: 1vw;
   letter-spacing: 8px;
   text-align: justify;
@@ -689,10 +724,12 @@ p, h3 {
 
 .foot {
   font-size: 0.85vw !important;
-    font-family: noto sans light, serif;
+  font-family: noto sans light, 
+               serif;
   opacity: 70%;
   letter-spacing: 2.5px;
   text-shadow: 4px 3px 7px red,
                -4px -3px 7px red;
 }
+
  }
