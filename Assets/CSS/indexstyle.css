@@ -11,12 +11,12 @@
 }
 
 .font-effect-emboss {
-  text-shadow: 0 1px 10px #ff5153,
-               0 -2px 1px hsl(320, 100%, 71%) !important;
+  text-shadow: 0 1px 10px #ff1d1d,
+               0 -2px 1px hsl(0, 91%, 38%) !important;
 }
 
 body {
-  filter: contrast(97%)
+  filter: contrast(77%)
           blur(0.7px);
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .overlay {
-  opacity: 50%;
+  opacity: 1%;
 }
 
 .accordion-item {
@@ -63,17 +63,16 @@ body {
 
 .accordion-button {
   font-family: Garamond, 
-               serif;
-  font-size: 20vw !important;
-  letter-spacing: 3px !important;
-  text-shadow: 20px 3px 32px rgb(254, 0, 0),
-               -10px -1px 20px rgb(102, 13, 13);
+               serif !important;
+  font-size: 10vh !important;
+  letter-spacing: 1px !important;
+  color: rgb(107, 12, 22) !important;
   background: transparent;
   filter: blur(0.7px);
 }
 
 .accordion-button:hover {
-  color: #ff174d !important;
+  color: rgb(143, 16, 29) !important;
 }
 
 .accordion-body {
@@ -97,7 +96,9 @@ body {
     font-family: gotham thin,
                  serif;
     font-size: 6.5vw;
-    color: #ffc3c3 !important;
+    text-shadow: 1px 1px 5px #b93737, 
+               -1px -1px 5px #be1518;
+    color: #915353 !important;
 }
 
 a {
@@ -105,29 +106,28 @@ a {
 }
 
 p, h3 {
-  font-family: Gothan light,
-               Verdana,
+  font-family: Gotham thin,
                sans-serif;
   font-size: 4vw;
   letter-spacing: 2px;
   line-height: 30px;
+  opacity: 100%;
+  color: #ff8d8d !important;
   text-shadow: 1px 1px 5px #885151, 
                -1px -1px 5px #be1518;
-  opacity: 100%;
-  color: #d36060 !important;
 }
 
 .dTop {
-  font-family: Gotham thin, 
-               BBH Hegarty, 
-               Georgia, 
+  font-family: gotham thin,
                serif;
+  text-shadow: 1px 1px 5px #b93737, 
+               -1px -1px 5px #be1518;
+  color: #915353 !important;
   top: 10px !important;
   font-size: 10vw !important;
   letter-spacing: 4px;
   left: -10px;
-  filter: blur(0.8px);  
-  color: #d5a6a6 !important;
+  filter: blur(0.8px);
 }
 
 .dTopVidDiv {
@@ -142,14 +142,14 @@ p, h3 {
 }
 
 .phone {
-  font-family: Gotham thin, 
-               BBH Hegarty, 
-               Georgia, 
+  font-family: gotham thin,
                serif;
+  text-shadow: 1px 1px 5px #b93737, 
+               -1px -1px 5px #be1518;
+  color: #915353 !important;
   letter-spacing: 4px;
   font-size: 10vw !important;
-  filter: blur(0.8px);  
-  color: #ffc3c3 !important;
+  filter: blur(0.8px);
 }
 
 .phoneVidDiv {
@@ -176,9 +176,11 @@ p, h3 {
 
 .skilHed {
   letter-spacing: 5px;
-  font-family: gotham light, 
-               Georgia, 
+  font-family: gotham thin,
                serif;
+  text-shadow: 1px 1px 5px #b93737, 
+               -1px -1px 5px #be1518;
+  color: #915353 !important;
 }
 
 .foot {
