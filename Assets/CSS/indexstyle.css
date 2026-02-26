@@ -1,25 +1,18 @@
 .font-effect-3d {
   color: #ff3939 !important;
-  text-shadow: 0px 1px 0px #84010e, 
-               0px 2px 0px #c2192a, 
-               0px 3px 0px #a01422, 
-               0px 4px 0px #8e121e, 
-               0px 5px 0px #720f19, 
-               0px 6px 0px #5e0c15, 
-               0px 7px 0px #46090f, 
-               0px 8px 7px #0e0203 !important;
+  text-shadow: 0 1px 0 #84010e,
+               0 2px 0 #c2192a,
+               0 3px 0 #a01422,
+               0 4px 0 #8e121e,
+               0 5px 0 #720f19,
+               0 6px 0 #5e0c15,
+               0 7px 0 #46090f,
+               0 8px 7px #0e0203 !important;
 }
 
-.font-effect-3d:hover {
-  color: #be1518 !important;
-  text-shadow: 0px 1px 0px #b11417, 
-               0px 2px 0px #9b1114, 
-               0px 3px 0px #760e0f, 
-               0px 4px 0px #700e0f, 
-               0px 5px 0px #500b12, 
-               0px 6px 0px #5e0c15, 
-               0px 7px 0px #36070c, 
-               0px 8px 7px #000000 !important;
+.font-effect-emboss {
+  text-shadow: 0 1px 10px #ff5153,
+               0 -2px 1px hsl(320, 100%, 71%) !important;
 }
 
 body {
@@ -28,9 +21,7 @@ body {
 }
 
 .devCont {
-  background: url("../Images/DM 3.png")
-              no-repeat;
-  background-position: center;
+    background: url("../Images/DM 3.png") no-repeat center;
 }
 
 .overlay {
@@ -46,34 +37,40 @@ body {
   font-family: Propaganda;
   src: url(../Fonts/Propaganda.TTF) 
        format('truetype'),
-       url(../Fonts/Propaganda.otf)
-       format('opentype'),
        url(../Fonts/Propaganda.woff) 
        format('woff'),
        url(../Fonts/Propaganda.woff2) 
        format('woff2');
-  font-family: Cardinal;
-  src: url(../Fonts/Cardinal.ttf)
-       format('truetype'),
-       url(../Fonts/Cardinal.otf)
-       format('opentype');
+}
+
+@font-face {
   font-family: BBH Bartle;
   src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf);
+}
+
+@font-face {
   font-family: Cinzel;
   src: url(../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
   font-family: Gotham;
   src: url(../Fonts/Gotham-font-family/Gotham/Gotham-Bold.otf)
        format('opentype');
 }
 
 .accordion-button {
-  font-family: Propaganda, Gotham, black, Garamond, serif;
-  font-size: 17vw !important;
-  letter-spacing: 1px !important;
+  font-family: Garamond, serif;
+  font-size: 20vw !important;
+  letter-spacing: 3px !important;
   text-shadow: 20px 3px 32px rgb(254, 0, 0),
                -10px -1px 20px rgb(102, 13, 13);
   background: transparent;
   filter: blur(0.7px);
+}
+
+.accordion-button:hover {
+  color: #ff174d !important;
 }
 
 .accordion-body {
@@ -93,10 +90,23 @@ body {
   filter: blur(1.5px);
 }
 
+.sumHed {
+    font-family: gotham thin,
+                 serif;
+    font-size: 6.5vw;
+    color: #ffc3c3 !important;
+}
+
+a {
+ text-decoration: none;
+}
+
 p, h3 {
-  font-family: noto sans light, Verdana, sans-serif;
-  font-size: 5vw;
-  letter-spacing: 4px;
+  font-family: Gothan light,
+               Verdana,
+               sans-serif;
+  font-size: 4vw;
+  letter-spacing: 2px;
   line-height: 30px;
   text-shadow: 1px 1px 5px #885151, 
                -1px -1px 5px #be1518;
@@ -104,23 +114,14 @@ p, h3 {
   color: #d36060 !important;
 }
 
-.sumHed {
-  font-family: propaganda, Garamond, serif;
-  opacity: 50%;
-  font-size: 9vw;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: #f8fffe !important;
-  text-shadow: 2px 2px 7px #be1518, 
-               -1px -1px 7px #002921 !important;
-}
-
 .dTop {
-  font-family: cardinal, BBH Hegarty, Georgia, serif;
+  font-family: Gotham thin, BBH Hegarty, Georgia, serif;
   top: 10px !important;
   font-size: 10vw !important;
+  letter-spacing: 4px;
   left: -10px;
-  filter: blur(0.8px);
+  filter: blur(0.8px);  
+  color: #d5a6a6 !important;
 }
 
 .dTopVidDiv {
@@ -135,9 +136,11 @@ p, h3 {
 }
 
 .phone {
-  font-family: cardinal, BBH Hegarty, Georgia, serif;
+  font-family: Gotham thin, BBH Hegarty, Georgia, serif;
+  letter-spacing: 4px;
   font-size: 10vw !important;
-  filter: blur(0.8px);
+  filter: blur(0.8px);  
+  color: #ffc3c3 !important;
 }
 
 .phoneVidDiv {
@@ -162,7 +165,7 @@ p, h3 {
 
 .skilHed {
   letter-spacing: 5px;
-  font-family: cardinal, Georgia, serif;
+  font-family: gotham light, Georgia, serif;
 }
 
 .foot {
@@ -199,14 +202,14 @@ p, h3 {
 
 .font-effect-3d {
   color: #ff3939 !important;
-  text-shadow: 0px 1px 0px #84010e, 
-               0px 2px 0px #c2192a, 
-               0px 3px 0px #a01422, 
-               0px 4px 0px #8e121e, 
-               0px 5px 0px #720f19, 
-               0px 6px 0px #5e0c15, 
-               0px 7px 0px #46090f, 
-               0px 8px 7px #0e0203 !important;
+  text-shadow: 0 1px 0 #84010e,
+               0 2px 0 #c2192a,
+               0 3px 0 #a01422,
+               0 4px 0 #8e121e,
+               0 5px 0 #720f19,
+               0 6px 0 #5e0c15,
+               0 7px 0 #46090f,
+               0 8px 7px #0e0203 !important;
 }
 
 body {
@@ -215,9 +218,9 @@ body {
 }
 
 .devCont {
-  background: url("../Images/DM 3.png")
-              no-repeat;
-  background-position: center;
+    background: url("../Images/DM 3.png")
+                    no-repeat
+                    center;
 }
 
 .summary, .skills, .folio {
@@ -227,7 +230,7 @@ body {
 .folBtn, .skilBtn, .sumBtn {
   background: transparent !important;
   border: none !important;
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: Propaganda, serif !important;
   font-size: 7.5vw !important;
   letter-spacing: 1px;
   filter: blur(1.6px);
@@ -248,7 +251,7 @@ body {
 }
 
 .sumDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -256,7 +259,7 @@ body {
   box-shadow: -910px 300px 1000px #552427,
               -100px -50px 500px #ff1f1f;
   overflow: scroll !important;            
-  width: 0%;
+  width: 0;
   height: 400%;
   transform: translate3d(1145px, -50px, -135px) !important;
 }
@@ -266,7 +269,7 @@ body {
 }
 
 .folDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -274,13 +277,13 @@ body {
   box-shadow: -610px 500px 1000px #d41818,
               -100px -50px 500px #552427;
   overflow: hidden !important;            
-  width: 0%;
+  width: 0;
   height: 500%;
   transform: translate3d(1145px, -287px, -135px) !important;
 }
 
 .skilDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -288,19 +291,19 @@ body {
   box-shadow: -910px 300px 1000px #d41818,
               -100px -50px 500px #ff1f1f;
   overflow: hidden !important;            
-  width: 0%;
+  width: 0;
   height: 500%;
   transform: translate3d(1145px, -522px, -135px) !important;
 }
 
 @keyframes ddMenu {
   from {background-color: transparent;
-        opacity: 0%;
-        width: 0%;
+        opacity: 0;
+        width: 0;
         left: -100px;}
   to {background-color: #552427;
       width: 50.5%;
-      left: 0px;
+      left: 0;
       opacity: 50%;}
 }
 
@@ -310,7 +313,7 @@ body {
 }
 
 .sumHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: Propaganda, serif;
   color: #e58d8d !important;
   letter-spacing: 3.5px !important;
   opacity: 100%;
@@ -322,7 +325,7 @@ body {
 }
 
 p, h3 {
-  font-family: noto sans light;
+    font-family: noto sans light, sans-serif;
   font-size: 1.2vw;
   letter-spacing: 5px;
   text-shadow: 1.5px 2px 3px rgb(255, 203, 203), 
@@ -332,7 +335,7 @@ p, h3 {
 }
 
 .folHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, sans-serif;
   color: #ff3a3a;
   letter-spacing: 2px !important;
   line-height: 110px;
@@ -344,17 +347,10 @@ p, h3 {
   margin: 40px;
 }
 
-.folSubHed {
-  font-family: cardinal, BBH Hegarty, sans-serif;
-  letter-spacing: 10.5px !important;
-  line-height: 150px;
-  opacity: 90%;
-}
-
 .dTop {
   font-family: cardinal, BBH Hegarty, sans-serif;
   rotate: 90deg;
-  top: 130px !important;
+  top: 100px !important;
   font-size: 6vw !important;
   left: -320px;
   filter: blur(1px);
@@ -363,7 +359,7 @@ p, h3 {
 .landscapeVid {
   top: -100px !important;
   left: -50px;
-  width: 550px;
+  width: 570px;
   filter: blur(2px);
 }
 
@@ -372,15 +368,16 @@ p, h3 {
 }
 
 .phone {
+  font-family: cardinal, BBH Hegarty, sans-serif;
   top: 250px !important;
   font-size: 6vw !important;
   left: 80px;
-  filter: blur(1px);
+  filter: blur(1px) !important;
 }
 
 .portraitVid {
   top: 120px !important;
-  left: 470px !important;
+  left: 490px !important;
   width: 250px;
   filter: blur(2px);
 }
@@ -394,7 +391,7 @@ p, h3 {
 }
 
 .skilHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -402,8 +399,25 @@ p, h3 {
   font-size: 5vw;
   font-weight: bold;
   text-shadow: 110px 40px 50px rgb(156, 4, 4),
-               80px 0px 10px rgb(255, 0, 0);
+               80px 0 10px rgb(255, 0, 0);
   filter: blur(2px);
+  margin-top: 100px !important;
+  padding-bottom: 10px !important;
+}
+
+.skilHed2 {
+    font-family: propaganda, serif;
+  color: #ff3a3a;
+  letter-spacing: 2.5px !important;
+  line-height: 150px;
+  opacity: 100%;
+  font-size: 5vw;
+  font-weight: bold;
+  text-shadow: 110px 40px 50px rgb(156, 4, 4),
+               80px 0 10px rgb(255, 0, 0);
+  filter: blur(2px);
+  margin-top: 1px !important;
+  padding-bottom: 1px !important;
 }
 
 .vector1 {
@@ -427,11 +441,13 @@ p, h3 {
   letter-spacing: 8px;
   text-align: justify;
   opacity: 100%;
+  overflow: scroll !important;
+  padding: 1px !important;
 }
 
 .foot {
   font-size: 1vw !important;
-  font-family: noto sans light;
+    font-family: noto sans light, serif;
   opacity: 80%;
   letter-spacing: 2.5px;
   text-shadow: 4px 3px 7px rgb(255, 0, 0),
@@ -456,14 +472,14 @@ p, h3 {
 
 .font-effect-3d {
   color: #ff3939 !important;
-  text-shadow: 0px 1px 0px #84010e, 
-               0px 2px 0px #c2192a, 
-               0px 3px 0px #a01422, 
-               0px 4px 0px #8e121e, 
-               0px 5px 0px #720f19, 
-               0px 6px 0px #5e0c15, 
-               0px 7px 0px #46090f, 
-               0px 8px 7px #0e0203 !important;
+  text-shadow: 0 1px 0 #84010e,
+               0 2px 0 #c2192a,
+               0 3px 0 #a01422,
+               0 4px 0 #8e121e,
+               0 5px 0 #720f19,
+               0 6px 0 #5e0c15,
+               0 7px 0 #46090f,
+               0 8px 7px #0e0203 !important;
 }
 
 body {
@@ -472,9 +488,7 @@ body {
 }
 
 .devCont {
-  background: url("../Images/DM 3.png")
-              no-repeat;
-  background-position: center;
+    background: url("../Images/DM 3.png") no-repeat center;
 }
 
 .summary, .skills, .folio {
@@ -484,7 +498,7 @@ body {
 .folBtn, .skilBtn, .sumBtn {
   background: transparent !important;
   border: none !important;
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, serif;
   font-size: 5.5vw !important;
   letter-spacing: 10px;
   filter: blur(2.5px);
@@ -505,7 +519,7 @@ body {
 }
 
 .sumDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -513,7 +527,7 @@ body {
   box-shadow: -910px 300px 1000px #552427,
               -100px -50px 500px #ff1f1f;
   overflow: scroll !important;            
-  width: 0%;
+  width: 0;
   height: 500%;
   transform: translate3d(1272px, -50px, -135px) !important;
 }
@@ -523,7 +537,7 @@ body {
 }
 
 .folDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -531,13 +545,13 @@ body {
   box-shadow: -610px 500px 1000px #d41818,
               -100px -50px 500px #552427;
   overflow: hidden !important;            
-  width: 0%;
+  width: 0;
   height: 500%;
   transform: translate3d(1272px, -287px, -135px) !important;
 }
 
 .skilDropDown {
-  border-radius: 0px;
+  border-radius: 0;
   border-color: #ff1f36;
   animation-name: ddMenu;
   animation-duration: 1s;
@@ -545,19 +559,19 @@ body {
   box-shadow: -910px 300px 1000px #d41818,
               -100px -50px 500px #ff1f1f;
   overflow: hidden !important;            
-  width: 0%;
+  width: 0;
   height: 500%;
   transform: translate3d(1272px, -522px, -135px) !important;
 }
 
 @keyframes ddMenu {
   from {background-color: transparent;
-        opacity: 0%;
-        width: 0%;
+        opacity: 0;
+        width: 0;
         left: -100px;}
   to {background-color: #552427;
       width: 56.5%;
-      left: 0px;
+      left: 0;
       opacity: 50%;}
 }
 
@@ -567,7 +581,7 @@ body {
 }
 
 .sumHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, serif;
   color: #ff3a3a;
   letter-spacing: 3.5px !important;
   opacity: 100%;
@@ -579,7 +593,7 @@ body {
 }
 
 .folHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -627,7 +641,7 @@ body {
 }
 
 .skilHed {
-  font-family: propaganda, BBH Bartle, sans-serif;
+    font-family: propaganda, serif;
   color: #ff3a3a;
   letter-spacing: 2.5px !important;
   line-height: 150px;
@@ -635,7 +649,7 @@ body {
   font-size: 5vw;
   font-weight: bold;
   text-shadow: 110px 40px 50px rgb(156, 4, 4),
-               80px 0px 10px rgb(255, 0, 0);
+               80px 0 10px rgb(255, 0, 0);
   filter: blur(2px);
 }
 
@@ -663,7 +677,7 @@ body {
 }
 
 p, h3 {
-  font-family: noto sans light;
+    font-family: noto sans light, serif;
   font-size: 1vw;
   letter-spacing: 8px;
   text-align: justify;
@@ -675,7 +689,7 @@ p, h3 {
 
 .foot {
   font-size: 0.85vw !important;
-  font-family: noto sans light;
+    font-family: noto sans light, serif;
   opacity: 70%;
   letter-spacing: 2.5px;
   text-shadow: 4px 3px 7px red,
