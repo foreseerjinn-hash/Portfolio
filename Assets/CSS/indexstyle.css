@@ -47,12 +47,14 @@ body {
 
 @font-face {
   font-family: BBH Bartle;
-  src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf);
+  src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf)
+       format('truetype');;
 }
 
 @font-face {
   font-family: Cinzel;
-  src: url(../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+  src: url(../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf)
+       format('truetype');;
 }
 
 @font-face {
@@ -64,6 +66,8 @@ body {
 .accordion-button {
   font-family: Garamond, 
                serif !important;
+  font-weight: normal;
+  font-style: normal;
   font-size: 10vh !important;
   letter-spacing: 1px !important;
   color: rgb(107, 12, 22) !important;
