@@ -1,5 +1,5 @@
 :root {
-  --bs-font-sans-serif: Propaganda, Garamond, Gothic thin, Gothic light, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-font-sans-serif: Propaganda, Garamond, gotham thin, gotham light, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .font-effect-3d {
@@ -15,12 +15,12 @@
 }
 
 .font-effect-emboss {
-  text-shadow: 0 1px 10px #ff1d1d,
-               0 -2px 1px hsl(0, 91%, 38%) !important;
+  text-shadow: 0 1px 20px #850101,
+               0 -2px 2px hsl(0, 95%, 52%) !important;
 }
 
 body {
-  filter: contrast(77%)
+  filter: contrast(80%)
           blur(0.7px);
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .overlay {
-  opacity: 1%;
+  opacity: 10%;
 }
 
 .accordion-item {
@@ -74,13 +74,13 @@ body {
   font-style: normal;
   font-size: 10vh !important;
   letter-spacing: 1px !important;
-  color: rgb(107, 12, 22) !important;
+  color: rgb(91, 0, 9) !important;
   background: transparent !important;
   filter: blur(0.7px);
 }
 
 .accordion-button:hover {
-  color: rgb(143, 16, 29) !important;
+  color: rgb(120, 0, 12)!important;
 }
 
 .accordion-body {
