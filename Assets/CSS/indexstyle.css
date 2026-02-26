@@ -90,14 +90,14 @@ body {
 
 .vector1 {
   opacity: 50%;
-  filter: blur(2.5px);
+  filter: blur(1px);
 }
 
 .vector2 {
   opacity: 40%;
   top: 180px;
   left: 140px;
-  filter: blur(1.5px);
+  filter: blur(1px);
 }
 
 .sumHed {
