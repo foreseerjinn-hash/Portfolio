@@ -482,8 +482,8 @@
                  dropdown-menu">
        <div class="container-fluid
                    d-xxl-flex
-                   mt-xxl-5
-                   h-75
+                   mt-xxl-1
+                   h-100
                    w-100">
         <img class="vector1
                     position-absolute"
@@ -491,71 +491,115 @@
              alt="illustration of cloaked figure in black">
         <div class="folBod
                     position-relative
+                    w-100
+                    h-100
                     px-xxl-1
                     text-wrap
                     overflow-scroll
                     overflow-x-hidden">
          <h2 class="folHed
-                    px-xxl-5
-                    mx-xxl-5
+                    h-100
+                    px-xxl-1
+                    mx-xxl-2
                     display-5
-                    justify-content
-                    font-effect-3d
+                    font-effect-emboss
                     position-relative">
-          Microblog Project
-         </h2> 
-         <div class="folSubHed">
-          <h3 class="dTop
-                     position-relative
-                     px-xxl-5
-                     mx-xxl-2
-                     font-effect-outline
-                     text-white">
-           Desktop:     
-          </h3> 
-          <div class="dTopBorderDiv
-                      embed-responsive 
-                      embed-responsive-16by9
-                      border-1
-                      border-danger">  
-           <video class="landscapeVid
-                         px-xxl-5
-                         position-relative"
-                  width="720" 
-                  height="640" 
-                  autoplay>
-            <source class="embed-responsive-item
-                           border
-                           border-danger"
-                    src="Assets/Vid/mbprojlandscape2.mp4" 
-                    type="video/mp4">   
-           </video> 
-          </div>
-          <h3 class="phone
-                     position-absolute
-                     p-xxl-5
-                     m-xxl-5
-                     font-effect-outline
-                     text-white">
-           Phone:   
-          </h3>  
-          <div class="phoneBorderDiv
-                      embed-responsive 
-                      embed-responsive-16by9">
-           <video class="portraitVid
-                         position-absolute"
-                  width="720" 
-                  height="640" 
-                  autoplay>
-            <source class="embed-responsive-item
-                           border
-                           border-danger"
-                    src="Assets/Vid/mbprojport4.mp4" 
-                    type="video/mp4">   
-           </video>
-          </div>
-         </div>  
-        </div>
+          June '25
+         </h2>
+         <button id="dTop" 
+                 type="button"
+                 data-toggle="popover"
+                 class="dTop
+                        btn btn-secondary
+                        position-absolute
+                        mx-xxl-3
+                        px-xxl-2
+                        top-0
+                        start-0
+                        font-effect-emboss
+                        text-white">
+          Desktop
+         </button>
+         <div id="popoverContent2"
+              class="d-none">
+          <pre class="dTopVid
+                      fs-6
+                      position-absolute">
+           My debut project; Beginning June 2025, I really wanted 
+           to create a digital space for my community that served 
+           as an alternative for existing social media platforms.
+           
+           After the fourth iteration I wanted to work more with
+           Carousel layouts, and grew the look of the site from 
+           there.
+
+           Below is an example of the desktop viewport, I used 
+           Bootstrap media queries to manage the responsive 
+           design across a variety of sizes, so the site can be 
+           accessible whether being viewed on a phone, tablet, 
+           laptop, etc. 
+          </pre>
+          <video class="landscapeVid2
+                        position-relative
+                        p-xxl-1"
+                 width="580" 
+                 height="640" 
+                 autoplay>
+           <source src="Assets/Vid/mbprojlandscape2.mp4" 
+                   type="video/mp4">   
+          </video>
+         </div>
+         <button id="phone" 
+                 type="button"
+                 data-toggle="popover"
+                 class="phone
+                        btn btn-secondary
+                        position-relative
+                        mx-xxl-3
+                        px-xxl-1
+                        top-50
+                        start-0
+                        font-effect-emboss
+                        text-white">
+          Phone
+         </button>
+         <div id="popoverContent1"
+              class="d-none">
+          <pre class="phoneVid
+                      position-absolute
+                      p-xxl-3">
+           Showcased here is the 
+           responsive layout for 
+           mobile. I used AOS and 
+           Bootstrap libraries to 
+           achieve the dynamic look, 
+           and after six iterations, 
+           landed on the design we 
+           see here.
+
+           What I like most about this 
+           project is the 
+           experimentation with grid 
+           layouts; what I like most 
+           about this design is the 
+           fluidity, I really wanted 
+           to balance this with a 
+           clean, glassy aesthetic, 
+           keeping the UI/UX simple 
+           yet engaging.
+          </pre>
+          <video class="portraitVid
+                        position-relative
+                        p-xxl-1"
+                 width="720" 
+                 height="640" 
+                 autoplay>
+           <source src="Assets/Vid/mbprojport4.mp4" 
+                   type="video/mp4">   
+          </video>
+         </div>
+         <hr class="position-absolute">
+        </div>  
        </div>
       </ul>
      </div>
@@ -598,14 +642,14 @@
                    px-xxl-1
                    display-5
                    justify-content
-                   font-effect-3d">
+                   font-effect-emboss">
          Proficient In:
         </h2>
         <div class="row
                     px-xxl-5">
          <div class="col-sm">
           <ul class="skilList
-                     font-effect-outline
+                     font-effect-emboss
                      overflow-scroll
                      overflow-x-hidden">
            <li>
@@ -621,7 +665,7 @@
          </div>
          <div class="col-sm">
           <ul class="skilList
-                     font-effect-outline">
+                     font-effect-emboss">
            <li>
             Responsive Design
            </li>
@@ -637,14 +681,14 @@
                    px-xxl-1
                    display-5
                    justify-content
-                   font-effect-3d">
+                   font-effect-emboss">
          Studying:
         </h2>
         <div class="row
                     px-xxl-5">
          <div class="col-sm">
           <ul class="skilList
-                     font-effect-outline
+                     font-effect-emboss
                      overflow-scroll
                      overflow-x-hidden">
            <li>
@@ -660,7 +704,7 @@
          </div>
          <div class="col-sm">
           <ul class="skilList
-                     font-effect-outline">
+                     font-effect-emboss">
            <li>
             CMS Platforms
            </li>
@@ -700,8 +744,72 @@
 
  </div>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
          type="text/javascript">
+ </script>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+ </script>
+
+ <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.7.4">
+ </script>
+
+ <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.7.5">
+
+  import 
+  {computePosition,
+   flip,
+   shift,
+   offset,
+   size,
+   autoUpdate} 
+  from 'https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.7.5/+esm';
+ 
+  const button = document.querySelector('#button');
+  const tooltip = document.querySelector('#tooltip');
+ 
+  computePosition(button, tooltip,
+  {placement: 'bottom-end',
+   middleware: 
+   [offset(20,{crossAxis: 20,}), 
+    flip(), 
+    shift({padding: 5}),
+    size({apply({availableWidth, 
+                 availableHeight, 
+                 elements}) 
+               {Object.assign
+                (elements.floating.style, 
+                 {maxWidth: `${Math.max(600, availableWidth)}px`,
+                  maxHeight: `${Math.max(640, availableHeight)}px`,});
+               },
+         }),
+   ],
+  }).then(({x, y}) => 
+         {Object.assign(tooltip.style,
+                        {left: `${x}px`, 
+                         top: `${y}px`,});
+  });
+
+  function update() 
+  {computePosition(button, tooltip,{}).then(({x, y, placement, middlewareData}) => 
+   {});}
+ 
+  function showTooltip() 
+  {tooltip.style.display = 'block';
+   update();}
+ 
+  function hideTooltip() 
+  {tooltip.style.display = '';}
+ 
+  [['mouseenter', showTooltip],
+   ['mouseleave', hideTooltip],
+   ['focus', showTooltip],
+   ['blur', hideTooltip],].forEach(([event, listener]) => 
+  {button.addEventListener(event, listener);});     
+
+ </script>
+
+ <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js">
  </script>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
@@ -709,7 +817,33 @@
          crossorigin="anonymous">
  </script>
 
- <script src="https://unpkg.com/aos@next/dist/aos.js">
+ <script type="module">
+
+  document.addEventListener('DOMContentLoaded', function() 
+  {const trigger = document.getElementById('phone');
+   const content = document.getElementById('popoverContent1').innerHTML;
+   new bootstrap.Popover(trigger, {trigger: "hover",
+                                   html: true,
+                                   placement: "left",
+                                   animation: true,
+                                   sanitize: false,
+                                   container: "body",
+                                   offset: [50, 70],
+                                   content: content});});
+
+  document.addEventListener('DOMContentLoaded', function() 
+  {const triggerTwo = document.getElementById('dTop');
+   const contentTwo = document.getElementById('popoverContent2').innerHTML;
+   new bootstrap.Popover(triggerTwo, {trigger: "hover",
+                                      html: true,
+                                      placement: "right",
+                                      animation: true,
+                                      sanitize: false,
+                                      container: "body",
+                                      offset: [250, 40],
+                                      content: contentTwo});});
+  
+
  </script>
  
  <script>
