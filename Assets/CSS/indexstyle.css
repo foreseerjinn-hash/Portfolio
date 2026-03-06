@@ -1,6 +1,7 @@
 :root {
   --bs-font-sans-serif: Propaganda, 
                         Garamond, 
+                        Cardinal
                         gotham thin, 
                         gotham light, 
                         system-ui, 
@@ -60,12 +61,6 @@ body {
 }
 
 @font-face {
-  font-family: BBH Bartle;
-  src: url(../Fonts/BBH_Bartle/BBHBartle-Regular.ttf)
-       format('truetype');;
-}
-
-@font-face {
   font-family: Cinzel;
   src: url(../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf)
        format('truetype');;
@@ -74,6 +69,14 @@ body {
 @font-face {
   font-family: Gotham;
   src: url(../Fonts/Gotham-font-family/Gotham/Gotham-Bold.otf)
+       format('opentype');
+}
+
+@font-face {
+  font-family: Cardinal;
+  src: url(../Fonts/Cardinal.ttf)
+       format('truetype'),
+       url(../Fonts/Cardinal.otf)
        format('opentype');
 }
 
